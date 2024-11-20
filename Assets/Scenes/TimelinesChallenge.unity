@@ -444,7 +444,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 81147c5f21c3a9547a569df7033210f9, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -558,7 +558,7 @@ Transform:
   m_GameObject: {fileID: 1409915021}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.29, y: 3.59, z: -0.31}
+  m_LocalPosition: {x: -7.29, y: 3.59, z: -0.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -723,6 +723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c068a68ed38f564e9df37a772ed021f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeline: {fileID: 975097137}
 --- !u!1 &1884188379
 GameObject:
   m_ObjectHideFlags: 0
